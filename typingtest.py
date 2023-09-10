@@ -26,5 +26,5 @@ time_taken = (end-start) /60
 char_count = sum(len(item) for item in text)
 words_count = char_count /4
 
-wpm = words_count/time_taken
+wpm = round(words_count/time_taken)
 print(f'Average wordperminute is {wpm}')
